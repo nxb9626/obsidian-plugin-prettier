@@ -160,6 +160,8 @@ export default class PrettierPlugin extends Plugin {
     } = prettier.formatWithCursor(text, {
       parser: "markdown",
       plugins: [markdown, babel, html],
+      proseWrap: "always",
+      printWidth: 100,
       cursorOffset: position,
       ...this.getPrettierSettings(),
     } as CursorOptions);
