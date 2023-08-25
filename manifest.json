@@ -1,6 +1,6 @@
 {
-  "id": "obsidian-plugin-prettier",
-  "name": "Prettier Format",
+  "id": "obsidian-plugin-prettier-custom",
+  "name": "Prettier Format - 95",
   "author": "Andrew Lisowski",
   "authorUrl": "https://twitter.com/hipstersmoothie",
   "description": "Opinionated formatting for your notes.",

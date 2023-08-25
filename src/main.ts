@@ -161,7 +161,7 @@ export default class PrettierPlugin extends Plugin {
       parser: "markdown",
       plugins: [markdown, babel, html],
       proseWrap: "always",
-      printWidth: 100,
+      printWidth: 95,
       cursorOffset: position,
       ...this.getPrettierSettings(),
     } as CursorOptions);
